@@ -20,6 +20,7 @@ class Monitor {
 
  private:
   Status status_;
+  bool hasReading_ = false;
 };
 
 }  // namespace power
