@@ -1,0 +1,31 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /Resources<< /Font<< /F1 5 0 R>>>> /Contents 4 0 R /MediaBox[0 0 612 792]>>endobj
+4 0 obj<< /Length 1241 >>stream
+BT /F1 12 Tf 72 760 Td (Heliostat Wiring Schematic Summary) Tj ET
+BT /F1 12 Tf 72 722 Td (Power: Solar array feeds 24V DC bus via safety interlock relay block.) Tj ET
+BT /F1 12 Tf 72 704 Td (Battery and solar combiner include inline fusing and emergency stop loop.) Tj ET
+BT /F1 12 Tf 72 686 Td (Motor drivers [azimuth & elevation] share the 24V bus downstream of interlocks.) Tj ET
+BT /F1 12 Tf 72 648 Td (Control: Main controller distributes I2C and UART backbone to peripherals.) Tj ET
+BT /F1 12 Tf 72 630 Td (GPS receiver connects on dedicated UART; LCD status panel resides on I2C.) Tj ET
+BT /F1 12 Tf 72 612 Td (Joystick axes feed MCU analog inputs; pushbuttons wired as digital inputs.) Tj ET
+BT /F1 12 Tf 72 594 Td (Limit switches [AZ+/-, EL+/-] return to MCU GPIO with shielded cabling.) Tj ET
+BT /F1 12 Tf 72 576 Td (Motor encoders route through drivers for closed-loop feedback and MCU telemetry.) Tj ET
+BT /F1 12 Tf 72 538 Td (Safety: Interlock relay removes power from drivers when any E-stop is triggered.) Tj ET
+BT /F1 12 Tf 72 520 Td (Door switches and overcurrent sensors wired in series within interlock chain.) Tj ET
+BT /F1 12 Tf 72 502 Td (Ground fault detection bonded to chassis and controller shield reference.) Tj ET
+endstream endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000229 00000 n 
+0000001519 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+1587
+%%EOF
