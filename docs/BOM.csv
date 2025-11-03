@@ -1,0 +1,22 @@
+Category,Item,Qty,Preferred Part,Alternate Part,Supplier,URL,Notes
+Controller,Arduino GIGA R1 WiFi,1,ABX00063,,Arduino Store,https://store.arduino.cc/products/giga-r1-wifi,Primary MCU board
+Motor Driver,TMC2209 stepper driver,2,Trinamic SilentStepStick,,Digikey,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4410/11300679,UART-configurable driver
+Stepper Motor,NEMA 17 1.8° 2A,2,StepperOnline 17HS19-2004S1,Moons' 17HM19-2004S,StepperOnline,https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-64oz-in-2a-42x42x48mm-4-wires-17hs19-2004s1.html,Pair with worm gear
+Gearbox,27:1 worm gearbox,1,PG27-20A,,Aliexpress,,Self-locking elevation
+Gearbox,30:1 worm gearbox or lazy Susan + belt,1,PG30-20A,Lazy Susan 250mm + GT2 belt,Amazon,,Azimuth stage options
+Power,Battery 12 V 10 Ah LiFePO4,1,BattleBorn BB12V10,Powerwerx Bioenno BLF-1209A,Powerwerx,https://powerwerx.com/bioenno-12v-9ah-lithium-iron-phosphate-lfp-battery,Integrated BMS
+Power,MPPT charge controller 10A,1,EPEVER Tracer 1210AN,Renogy Rover 10A,Amazon,,Sized for 50–100 W panel
+Power,PV module 50–100 W,1,ReneSola 50W,Rich Solar 80W,Amazon,,Select for deployment
+Display,20×4 I2C LCD,1,DFRobot FIT0128,SunFounder I2C LCD,Amazon,,Backpack included
+UI,Joystick with pushbutton,1,HW-504,,Sparkfun COM-09032,https://www.sparkfun.com/products/9032,
+UI,Panel buttons,4,C&K ATP19,Apem A01ES,Digikey,,IP65 tactile buttons
+Sensing,GPS module u-blox M8N,1,Beitian BN-880,CUAV NEO 3,Amazon,,Include active antenna
+Safety,E-stop latching mushroom,1,Schneider XALK178,,AutomationDirect,,NC contact rated 5A
+Sensors,Limit switch roller lever,4,Omron D4C-1620,TE AL7 series,Digikey,,Two per axis
+Wiring,12V→5V buck converter,1,Pololu D36V6F5,XL4015 module,Pololu,,3A capability
+Wiring,Connectors assorted,1 set,Amphenol LTW circular,,Mouser,,Panelized harness
+Mechanical,Mirror 300×300×3 mm acrylic,1,Acrylite FF mirror,First Surface glass,McMaster-Carr,,Protective film until installation
+Mechanical,L-brackets and plate stock,1 set,Custom laser cut,,Local fab,,Use drawings
+Mechanical,Cable chain 10×20 mm,1,Igus E2 micro,,Igus,,Route axis wiring
+Cooling,12 V brushless fan 40 mm,1,Sunon MF40101V2-1000U-A99,Noctua NF-A4x20,Digikey,,Optional for enclosure airflow
+Misc,Fuses ANL 15A + holders,1 pair,Littelfuse,Littelfuse MEGA,Digikey,,Protect battery line
