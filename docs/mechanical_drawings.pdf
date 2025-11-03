@@ -1,0 +1,30 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /Resources<< /Font<< /F1 5 0 R>>>> /Contents 4 0 R /MediaBox[0 0 612 792]>>endobj
+4 0 obj<< /Length 1109 >>stream
+BT /F1 12 Tf 72 760 Td (Mechanical Drawing Notes) Tj ET
+BT /F1 12 Tf 72 722 Td (Mirror Carrier: 450 x 320 x 8 mm aluminum plate, 4x 8 slotted holes [40 mm long].) Tj ET
+BT /F1 12 Tf 72 704 Td (Bond 20 mm deep ribs at rear for stiffness; maintain flatness &lt;0.5 mm.) Tj ET
+BT /F1 12 Tf 72 666 Td (Elevation Bracket: 200 x 160 x 10 mm plate with central 25 pivot boss.) Tj ET
+BT /F1 12 Tf 72 648 Td (Add 45 gussets between base and side plates; provide grease channel.) Tj ET
+BT /F1 12 Tf 72 610 Td (Azimuth Base: 260 x 260 x 12 mm base ring with 220 clearance for slew bearing.) Tj ET
+BT /F1 12 Tf 72 592 Td (Anchor pattern 14 mm on 200 mm square bolt circle; integrate cable window.) Tj ET
+BT /F1 12 Tf 72 554 Td (Belt Guard: 220 x 120 x 2 mm folded cover, louvered ventilation each side.) Tj ET
+BT /F1 12 Tf 72 536 Td (Hinge on lower flange, tool-less fasteners on top inspection door.) Tj ET
+BT /F1 12 Tf 72 498 Td (Limit Switch Mount: 90 x 60 x 4 mm stainless plate with 6 x 25 mm slots.) Tj ET
+BT /F1 12 Tf 72 480 Td (Provide datum shoulder to align roller levers; include drip edge shield.) Tj ET
+endstream endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000229 00000 n 
+0000001387 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+1455
+%%EOF

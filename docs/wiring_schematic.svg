@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850">
+  <style>
+    .box { fill: #f0f4ff; stroke: #1f3b4d; stroke-width: 3; rx: 20; ry: 20; }
+    .title { font: bold 28px sans-serif; fill: #1f3b4d; }
+    .label { font: 24px sans-serif; fill: #0a1633; }
+    .note { font: 20px sans-serif; fill: #0a1633; }
+  </style>
+  <rect x="0" y="0" width="1100" height="850" fill="#ffffff"/>
+  <text x="550" y="60" class="title" text-anchor="middle">Heliostat Wiring Schematic</text>
+
+  <rect x="80" y="140" width="200" height="150" class="box" fill="#ffe7d6"/>
+  <text x="180" y="200" class="label" text-anchor="middle">Solar Array</text>
+  <text x="180" y="230" class="label" text-anchor="middle">+ Battery 24V</text>
+
+  <rect x="420" y="140" width="300" height="150" class="box" fill="#e4f5f9"/>
+  <text x="570" y="200" class="label" text-anchor="middle">Main Controller</text>
+  <text x="570" y="230" class="label" text-anchor="middle">(MCU + Power Mgmt)</text>
+
+  <rect x="820" y="140" width="200" height="150" class="box" fill="#e6f4ea"/>
+  <text x="920" y="200" class="label" text-anchor="middle">Motor Drivers</text>
+  <text x="920" y="230" class="label" text-anchor="middle">AZ &amp; EL</text>
+
+  <rect x="110" y="360" width="220" height="120" class="box" fill="#fdebd0"/>
+  <text x="220" y="410" class="label" text-anchor="middle">Safety Interlocks</text>
+  <text x="220" y="440" class="label" text-anchor="middle">(E-Stop, Fusing)</text>
+
+  <rect x="450" y="360" width="220" height="120" class="box" fill="#fff0f6"/>
+  <text x="560" y="410" class="label" text-anchor="middle">Limit Switches</text>
+  <text x="560" y="440" class="label" text-anchor="middle">AZ+/-, EL+/-</text>
+
+  <rect x="820" y="360" width="200" height="120" class="box" fill="#e8f8f5"/>
+  <text x="920" y="410" class="label" text-anchor="middle">Encoders</text>
+  <text x="920" y="440" class="label" text-anchor="middle">(Feedback)</text>
+
+  <rect x="80" y="560" width="240" height="120" class="box" fill="#fef9e7"/>
+  <text x="200" y="610" class="label" text-anchor="middle">GPS Receiver</text>
+  <text x="200" y="640" class="label" text-anchor="middle">UART</text>
+
+  <rect x="420" y="560" width="240" height="120" class="box" fill="#f4ecf7"/>
+  <text x="540" y="610" class="label" text-anchor="middle">LCD Panel</text>
+  <text x="540" y="640" class="label" text-anchor="middle">I2C</text>
+
+  <rect x="780" y="560" width="240" height="120" class="box" fill="#ebf5fb"/>
+  <text x="900" y="610" class="label" text-anchor="middle">Joystick Panel</text>
+  <text x="900" y="640" class="label" text-anchor="middle">Analog + PB</text>
+
+  <line x1="280" y1="210" x2="420" y2="210" stroke="#c0392b" stroke-width="6"/>
+  <line x1="720" y1="210" x2="820" y2="210" stroke="#c0392b" stroke-width="6"/>
+  <line x1="180" y1="290" x2="180" y2="360" stroke="#c0392b" stroke-width="4"/>
+  <line x1="220" y1="480" x2="560" y2="480" stroke="#2e86c1" stroke-width="4" stroke-dasharray="12,12"/>
+  <line x1="560" y1="480" x2="920" y2="480" stroke="#196f3d" stroke-width="4"/>
+  <line x1="540" y1="560" x2="540" y2="480" stroke="#2e86c1" stroke-width="4"/>
+  <line x1="200" y1="560" x2="540" y2="480" stroke="#2e86c1" stroke-width="4"/>
+  <line x1="900" y1="560" x2="560" y2="480" stroke="#2e86c1" stroke-width="4"/>
+
+  <text x="550" y="330" class="note" text-anchor="middle">24V DC Bus across power modules</text>
+  <text x="550" y="520" class="note" text-anchor="middle">Control Backbone (I2C / UART / Analog)</text>
+  <text x="550" y="780" class="note" text-anchor="middle">Shield encoder &amp; limit switch runs; route interlocks ahead of drivers.</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+      <style>
+        .title { font: bold 28px sans-serif; }
+        .body { font: 22px sans-serif; }
+      </style>
+      <rect x="0" y="0" width="800" height="500" fill="#ffffff" stroke="#0a1633" stroke-width="4"/>
+      <rect x="150" y="120" width="500" height="220" fill="#f8f8f8" stroke="#0a1633" stroke-width="4" rx="20" ry="20"/>
+      <circle cx="250" cy="200" r="20" fill="#ffffff" stroke="#0a1633" stroke-width="3"/>
+      <circle cx="400" cy="200" r="20" fill="#ffffff" stroke="#0a1633" stroke-width="3"/>
+      <circle cx="550" cy="200" r="20" fill="#ffffff" stroke="#0a1633" stroke-width="3"/>
+      <text x="400" y="80" class="title" text-anchor="middle">Limit Switch Mount</text>
+      <text x="400" y="370" class="body" text-anchor="middle">90 x 60 x 4 mm slotted plate for fine switch placement.</text>
+    </svg>
